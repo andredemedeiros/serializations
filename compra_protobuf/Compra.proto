@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package compra;
+
+// Message representing a Compra (purchase)
+message Compra {
+  string nomeCliente = 1;              // Name of the client
+  repeated string produtos = 2;        // List of products (repeated field)
+  int64 valorTotal = 3;                // Total value of the purchase
+}
