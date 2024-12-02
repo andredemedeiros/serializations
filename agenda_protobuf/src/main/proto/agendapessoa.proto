@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package agenda;
+
+// Import the Pessoa message from pessoa.proto
+import "pessoa.proto";
+
+// Define an AgendaDeContatos message
+message AgendaDeContatos {
+  string nomeAgenda = 1;
+  repeated pessoa.Pessoa pessoas = 2;
+}

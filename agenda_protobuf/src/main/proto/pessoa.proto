@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package pessoa;
+
+// Define a Pessoa message
+message Pessoa {
+  string nome = 1;
+  int32 idade = 2;
+  bytes foto = 3;
+}
