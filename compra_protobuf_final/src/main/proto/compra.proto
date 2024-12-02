@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message Compra {
+  string nomeCliente = 1;
+  repeated Produto produtos = 2;
+}
+
+message Produto {
+  string nome = 1;
+  float valor = 2;
+}

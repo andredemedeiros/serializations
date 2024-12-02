@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+    id "com.google.protobuf" version "0.9.4"
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+protobuf {
+    generateProtoTasks {
+        all().configureEach { task ->
+            task.builtins {
+                // Generates Python code
+                python { }
+
+                // If you wish to avoid generating Java files:
+                remove java
+            }
+        }
+    }
+}
+dependencies {
+    implementation 'com.google.protobuf:protobuf-java:4.29.0'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
