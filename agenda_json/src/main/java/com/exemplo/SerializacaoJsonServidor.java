@@ -11,14 +11,16 @@ public class SerializacaoJsonServidor {
             listenSocket = new ServerSocket(6789);
             while (true) {
                 Socket connectionSocket = listenSocket.accept();
-                ObjectOutputStream outToClient = new ObjectOutputStream(connectionSocket.getOutputStream());
                 ObjectInputStream inFromClient = new ObjectInputStream(connectionSocket.getInputStream());
+
                 AgendaDeContatos agenda = (AgendaDeContatos) inFromClient.readObject();
 
                 System.out.println("Recebido: \n");
                 System.out.println(agenda.toString());
 
-                // A partir daqui, o servidor pode tratar a foto, como salvar o arquivo novamente, por exemplo
+                // Fechar os streams e o socket
+                inFromClient.close();
+                connectionSocket.close();
             }
         } catch (IOException e) {
             e.printStackTrace();

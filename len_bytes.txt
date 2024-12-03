@@ -1,0 +1,12 @@
+compra_simples = 475 bytes
+compra_custom = 486 bytes
+compra_json = 499 bytes
+compra_xml = 568 bytes
+compra_proto = 274 bytes
+
+agenda_simples = 1199998 bytes
+agenda_custom = 1197660 bytes
+agenda_json = 1199956 bytes
+agenda_xml = 1199362 bytes
+agenda_proto = 1197724 bytes
+

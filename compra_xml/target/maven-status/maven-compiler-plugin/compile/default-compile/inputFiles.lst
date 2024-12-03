@@ -1,4 +1,4 @@
-/home/andre/Documents/distribuidos/compra_xml/src/main/java/com/exemplo/Produto.java
-/home/andre/Documents/distribuidos/compra_xml/src/main/java/com/exemplo/SerializacaoXmlServidor.java
-/home/andre/Documents/distribuidos/compra_xml/src/main/java/com/exemplo/Compra.java
-/home/andre/Documents/distribuidos/compra_xml/src/main/java/com/exemplo/SerializacaoXmlCliente.java
+/home/andre/Documents/distribuidos/serializations/compra_xml/src/main/java/com/exemplo/SerializacaoXmlCliente.java
+/home/andre/Documents/distribuidos/serializations/compra_xml/src/main/java/com/exemplo/Produto.java
+/home/andre/Documents/distribuidos/serializations/compra_xml/src/main/java/com/exemplo/Compra.java
+/home/andre/Documents/distribuidos/serializations/compra_xml/src/main/java/com/exemplo/SerializacaoXmlServidor.java
