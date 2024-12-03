@@ -75,13 +75,13 @@ Aplicou-se o mesmo procedimento de captura de pacotes em todos cenários.
 
 \subsection{Cálculo de tamanho de pacotes}
 Os pacotes do cenário que simula uma requisição de compra, possui um volume considerávelmente menor em comparação com os
-pacotes do cenário que simula uma agenda de contatos. Por isso, no primeiro cenário, foi possível calcular manualmente (com arquivos os \textit{.pcap}) a quantidade de \textit{bytes} necessária para transmitir a mensagem após serialização. No seguindo caso, porém, utilizou-se o \textit{sotware} \textit{tshark} que automatiza a leitura e operação em arquivos \textit{.pcap}.
+pacotes do cenário que simula uma agenda de contatos. Por isso, no primeiro cenário, foi possível calcular manualmente (com arquivos os \textit{.pcap}) a quantidade de \textit{bytes} necessária para transmitir a mensagem após serialização. No seguindo caso, porém, utilizou-se o sotware tshark que automatiza a leitura e operação em arquivos \textit{.pcap}.
 
 
 
 \section{Discussão dos Resultados}
 
-Após a escrita dos \textit{scripts} em Java que implementam a serialização e de posse dos arquivos \textit{.pcap} com os tamanhos dos pacotes transmitidos (em \textit{bytes}) foi possível
+Após a escrita dos scripts em Java que implementam a serialização e de posse dos arquivos \textit{.pcap} com os tamanhos dos pacotes transmitidos (em \textit{bytes}) foi possível
 gerar gráficos de barras comparativos entre os protocolos em diferentes cenários.
 
 \begin{figure}[H]
@@ -117,7 +117,7 @@ No segunda caso, Figura \ref{fig:agenda}, porém, percebe-se que para mensagens 
     \textbf{Protobuf} & 274   & -40.5\% & 1,197,724  & -0.11\% \\
     \hline
     \end{tabular}
-    \caption{Tabela de Dados de Compra e Agenda com Valores e Comparativo Percentual}
+    \caption{Tabela de cenários de lista de compra e de agenda de contatos com valores e comparativo cercentual}
     \label{tabela}
 \end{table}
 
