@@ -17,10 +17,10 @@ ax.set_xticks(index)
 ax.set_xticklabels(categories)
 ax.legend()
 plt.tight_layout()
-plt.savefig('imgs/compra_data_size.png', dpi=300)  # Save Compra plot as PNG
-plt.close()  # Close the plot to avoid overlapping with the next one
+plt.savefig('imgs/compra_data_size.png', dpi=300) 
+plt.close()  
 
-# Create and save the "Agenda" plot
+
 fig, ax = plt.subplots(figsize=(10, 6))
 ax.bar(index, agenda_sizes, color='g', label='Agenda')
 ax.set_xlabel('Protocolos')
@@ -28,8 +28,8 @@ ax.set_ylabel('Tamanho (Bytes)')
 ax.set_title('Agenda de Contatos')
 ax.set_xticks(index)
 ax.set_xticklabels(categories)
-ax.set_ylim(1.1e6, max(agenda_sizes) * 1.1)  # Ajustar o limite inferior do eixo Y para 1e6
+ax.set_ylim(1.1e6, max(agenda_sizes) * 1.1)  
 ax.legend()
 plt.tight_layout()
-plt.savefig('imgs/agenda_data_size.png', dpi=300)  # Save Agenda plot as PNG
-plt.close()  # Close the plot to avoid overlap
+plt.savefig('imgs/agenda_data_size.png', dpi=300)  
+plt.close()  
