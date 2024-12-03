@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.22)  2 DEC 2024 21:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.22)  2 DEC 2024 22:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -164,23 +164,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count284
 \l__pdf_internal_box=\box56
-) (./report.aux
-
-LaTeX Warning: Label `fig:clock_original' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:clock_original' multiply defined.
-
-
-LaTeX Warning: Label `fig:clock_300dpi' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:clock_300dpi' multiply defined.
-
-
-LaTeX Warning: Label `fig:clock_comparison' multiply defined.
-
-)
+) (./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -224,55 +208,51 @@ Package caption Info: End \AtBeginDocument code.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (34.1952pt too wide) in paragraph at lines 49--51
+Overfull \hbox (34.1952pt too wide) in paragraph at lines 50--52
 \OT1/cmr/m/n/10 Os c^^Sodigos est~ao dispon^^S^^Pveis em: https://github.com/andredemedeiros/serializations.git 
  []
 
 <imgs/compra_simples_term.png, id=9, 1576.89125pt x 541.02126pt>
 File: imgs/compra_simples_term.png Graphic file (type png)
 <use imgs/compra_simples_term.png>
-Package pdftex.def Info: imgs/compra_simples_term.png  used on input line 60.
+Package pdftex.def Info: imgs/compra_simples_term.png  used on input line 61.
 (pdftex.def)             Requested size: 241.49895pt x 82.85027pt.
 <imgs/compra_simples_wire.png, id=11, 1858.945pt x 797.98125pt>
 File: imgs/compra_simples_wire.png Graphic file (type png)
 <use imgs/compra_simples_wire.png>
-Package pdftex.def Info: imgs/compra_simples_wire.png  used on input line 66.
+Package pdftex.def Info: imgs/compra_simples_wire.png  used on input line 67.
 (pdftex.def)             Requested size: 241.49895pt x 103.65596pt.
 [2]
-
-LaTeX Warning: Reference `fig:clock_1250dpi' on page 3 undefined on input line 85.
-
 <imgs/compra_data_size.png, id=19, 722.7pt x 433.62pt>
 File: imgs/compra_data_size.png Graphic file (type png)
 <use imgs/compra_data_size.png>
-Package pdftex.def Info: imgs/compra_data_size.png  used on input line 114.
-(pdftex.def)             Requested size: 241.49895pt x 144.90134pt.
-<imgs/agenda_data_size.png, id=20, 722.7pt x 433.62pt>
+Package pdftex.def Info: imgs/compra_data_size.png  used on input line 89.
+(pdftex.def)             Requested size: 345.0pt x 206.9972pt.
+ [3 <./imgs/compra_simples_term.png> <./imgs/compra_simples_wire.png>]
+<imgs/agenda_data_size.png, id=26, 722.7pt x 433.62pt>
 File: imgs/agenda_data_size.png Graphic file (type png)
 <use imgs/agenda_data_size.png>
-Package pdftex.def Info: imgs/agenda_data_size.png  used on input line 120.
-(pdftex.def)             Requested size: 241.49895pt x 144.90134pt.
-[3 <./imgs/compra_simples_term.png> <./imgs/compra_simples_wire.png>] [4 <./imgs/compra_data_size.png> <./imgs/agenda_data_size.png>] (./report.aux)
+Package pdftex.def Info: imgs/agenda_data_size.png  used on input line 98.
+(pdftex.def)             Requested size: 345.0pt x 206.9972pt.
+ [4 <./imgs/compra_data_size.png> <./imgs/agenda_data_size.png>]
+Overfull \hbox (11.75537pt too wide) in paragraph at lines 107--120
+ [][] 
+ []
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[5] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 5286 strings out of 480247
- 84488 string characters out of 5896151
- 566808 words of memory out of 5000000
- 23205 multiletter control sequences out of 15000+600000
+ 5291 strings out of 480247
+ 84544 string characters out of 5896151
+ 567808 words of memory out of 5000000
+ 23210 multiletter control sequences out of 15000+600000
  475287 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 67i,8n,77p,675b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,9n,77p,567b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on report.pdf (4 pages, 533944 bytes).
+Output written on report.pdf (5 pages, 542081 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

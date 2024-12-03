@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1733184210 "/home/andre/Documents/distribuidos/serializations/pdf/report.tex" "report.pdf" "report" 1733184211
+["pdflatex"] 1733188419 "/home/andre/Documents/distribuidos/serializations/pdf/report.tex" "report.pdf" "report" 1733188419
   "/etc/texmf/web2c/texmf.cnf" 1724369847 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/andre/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1724373237 1405651 2ea0f71fa3637b35770539a4a377f5c4 ""
-  "/home/andre/Documents/distribuidos/serializations/pdf/report.tex" 1733184210 9304 392fd9fb3324ec55006ebab55c591246 ""
+  "/home/andre/Documents/distribuidos/serializations/pdf/report.tex" 1733188419 7324 86d42fd0a2d5aff844206ed648deaf75 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -64,8 +64,8 @@
   "imgs/compra_data_size.png" 1733181528 83778 bbde876524473b020f4468067b2ec642 ""
   "imgs/compra_simples_term.png" 1733145739 107372 79a93662bcf6264a7785eda37fc28070 ""
   "imgs/compra_simples_wire.png" 1733145988 214118 28e7a5e67566cf2e36550b3ebe871025 ""
-  "report.aux" 1733184211 1840 a2776d33a1bf20f8b8ac0b7a5e9eeef1 "pdflatex"
-  "report.tex" 1733184210 9304 392fd9fb3324ec55006ebab55c591246 ""
+  "report.aux" 1733188419 1999 a42889d772141dc3d64b7a8657ce9d58 "pdflatex"
+  "report.tex" 1733188419 7324 86d42fd0a2d5aff844206ed648deaf75 ""
   (generated)
   "report.aux"
   "report.log"

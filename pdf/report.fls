@@ -283,7 +283,6 @@ INPUT ./imgs/compra_simples_wire.png
 INPUT imgs/compra_simples_wire.png
 INPUT ./imgs/compra_simples_wire.png
 INPUT ./imgs/compra_simples_wire.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./imgs/compra_data_size.png
 INPUT ./imgs/compra_data_size.png
 INPUT imgs/compra_data_size.png
@@ -294,6 +293,7 @@ INPUT ./imgs/agenda_data_size.png
 INPUT imgs/agenda_data_size.png
 INPUT ./imgs/agenda_data_size.png
 INPUT ./imgs/agenda_data_size.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT report.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
