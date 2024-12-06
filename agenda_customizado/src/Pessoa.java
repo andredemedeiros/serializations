@@ -5,7 +5,7 @@ public class Pessoa implements Serializable {
 
     public String nome;
     public int idade;
-    public byte[] foto;  // A foto será armazenada como um array de bytes
+    public byte[] foto;  
 
     public Pessoa(String nome, int idade, byte[] foto) {
         this.nome = nome;

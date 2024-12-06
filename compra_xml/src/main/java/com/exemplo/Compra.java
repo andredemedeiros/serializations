@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-@JacksonXmlRootElement(localName = "compra") // Root element of the XML
+@JacksonXmlRootElement(localName = "compra") 
 public class Compra implements Serializable {
 
     @JacksonXmlProperty(localName = "nomeCliente")

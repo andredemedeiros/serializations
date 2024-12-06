@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 public class Pessoa implements Serializable {
 
-    @JsonProperty("nome")   // Anotação para definir como o campo será mapeado no JSON
+    @JsonProperty("nome")   
     public String nome;
 
     @JsonProperty("idade")
@@ -16,7 +16,7 @@ public class Pessoa implements Serializable {
     public byte[] foto;
 
     public Pessoa() {
-        // Construtor padrão é necessário para o Jackson
+        
     }
 
     public Pessoa(String nome, int idade, byte[] foto) {

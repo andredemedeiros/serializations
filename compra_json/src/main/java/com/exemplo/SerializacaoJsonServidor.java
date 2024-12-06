@@ -5,7 +5,7 @@ import java.net.*;
 
 public class SerializacaoJsonServidor {
     public static void main(String[] args) {
-        // Recebimento do cliente por socket TCP
+        // recebimento do cliente por socket TCP
         ServerSocket listenSocket;
         try {
             listenSocket = new ServerSocket(6789);

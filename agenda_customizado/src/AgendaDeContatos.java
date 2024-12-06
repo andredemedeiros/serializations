@@ -18,35 +18,35 @@ public class AgendaDeContatos implements Serializable {
         this.pessoas.add(pessoa);
     }
 
-    // Método de serialização customizada
+ 
     public void writeObject(DataOutputStream o) throws IOException {
-        // Grava o nome da agenda
+       
         o.writeUTF(nomeAgenda);
-        // Grava o número de pessoas
+       
         o.writeInt(pessoas.size());
-        // Grava os dados de cada pessoa
+        
         for (Pessoa pessoa : pessoas) {
-            o.writeUTF(pessoa.nome);  // Grava o nome da pessoa
-            o.writeInt(pessoa.idade);  // Grava a idade da pessoa
-            o.writeInt(pessoa.foto.length);  // Grava o tamanho da foto
-            o.write(pessoa.foto);  // Grava os bytes da foto
+            o.writeUTF(pessoa.nome);  
+            o.writeInt(pessoa.idade);
+            o.writeInt(pessoa.foto.length);  
+            o.write(pessoa.foto); 
         }
     }
 
-    // Método de desserialização customizada
+
     public static AgendaDeContatos readObject(DataInputStream o) throws IOException {
-        String nomeAgenda = o.readUTF();  // Lê o nome da agenda
-        // Cria uma nova instância de AgendaDeContatos
+        String nomeAgenda = o.readUTF();  
+    
         AgendaDeContatos agenda = new AgendaDeContatos(nomeAgenda);
-        // Lê o número de pessoas na agenda
+      
         int numPessoas = o.readInt();
-        // Lê cada pessoa e adiciona à lista
+      
         for (int i = 0; i < numPessoas; i++) {
-            String nomePessoa = o.readUTF();  // Lê o nome da pessoa
-            int idadePessoa = o.readInt();  // Lê a idade da pessoa
-            int fotoLength = o.readInt();  // Lê o tamanho da foto
+            String nomePessoa = o.readUTF(); 
+            int idadePessoa = o.readInt(); 
+            int fotoLength = o.readInt(); 
             byte[] foto = new byte[fotoLength];
-            o.readFully(foto);  // Lê os bytes da foto
+            o.readFully(foto); 
             agenda.adicionarPessoa(nomePessoa, idadePessoa, foto);
         }
         return agenda;

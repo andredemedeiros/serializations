@@ -5,17 +5,17 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
 import java.io.Serializable;
 
-@JacksonXmlRootElement(localName = "produto") // Custom XML root element name
+@JacksonXmlRootElement(localName = "produto") 
 public class Produto implements Serializable {
 
-    @JacksonXmlProperty(localName = "nome")   // Specify XML element name for the field
+    @JacksonXmlProperty(localName = "nome")   
     public String nome;
 
     @JacksonXmlProperty(localName = "valor")
     public float valor;
 
     public Produto() {
-        // Default constructor for Jackson
+        
     }
 
     public Produto(String nome, float valor) {

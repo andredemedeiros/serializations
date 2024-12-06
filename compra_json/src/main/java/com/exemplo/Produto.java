@@ -6,14 +6,14 @@ import java.io.Serializable;
 
 public class Produto implements Serializable {
 
-    @JsonProperty("nome")   // Anotação para definir como o campo será mapeado no JSON
+    @JsonProperty("nome")   
     public String nome;
 
     @JsonProperty("valor")
     public float valor;
 
     public Produto() {
-        // Construtor padrão é necessário para o Jackson
+        
     }
 
     public Produto(String nome, float valor) {

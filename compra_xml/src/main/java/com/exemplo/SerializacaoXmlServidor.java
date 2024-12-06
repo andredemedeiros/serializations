@@ -7,7 +7,7 @@ import java.net.*;
 
 public class SerializacaoXmlServidor {
     public static void main(String[] args) {
-        // Recebimento do cliente por socket TCP
+        // recebimento do cliente por socket TCP
         ServerSocket listenSocket;
         try {
             listenSocket = new ServerSocket(6789);
@@ -16,9 +16,9 @@ public class SerializacaoXmlServidor {
                 InputStream inFromClient = connectionSocket.getInputStream();
                 OutputStream outToClient = connectionSocket.getOutputStream();
 
-                // Configurar o XmlMapper para deserializar XML
+                // configurar o XmlMapper para deserializar XML
                 XmlMapper xmlMapper = new XmlMapper();
-                Compra cp = xmlMapper.readValue(inFromClient, Compra.class);  // Deserializa o XML para o objeto Compra
+                Compra cp = xmlMapper.readValue(inFromClient, Compra.class);  // deserializa o XML para o objeto Compra
 
                 System.out.println("Recebido: \n");
                 System.out.println(cp.toString());

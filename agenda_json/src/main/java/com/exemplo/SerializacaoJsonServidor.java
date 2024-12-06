@@ -5,7 +5,7 @@ import java.net.*;
 
 public class SerializacaoJsonServidor {
     public static void main(String argv[]) {
-        // Recebimento do cliente por socket TCP
+
         ServerSocket listenSocket;
         try {
             listenSocket = new ServerSocket(6789);
@@ -18,7 +18,7 @@ public class SerializacaoJsonServidor {
                 System.out.println("Recebido: \n");
                 System.out.println(agenda.toString());
 
-                // Fechar os streams e o socket
+     
                 inFromClient.close();
                 connectionSocket.close();
             }

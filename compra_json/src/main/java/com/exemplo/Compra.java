@@ -15,7 +15,7 @@ public class Compra implements Serializable {
     public List<Produto> produtos;
 
     public Compra() {
-        // Construtor padrão é necessário para o Jackson
+
         this.produtos = new ArrayList<>();
     }
 

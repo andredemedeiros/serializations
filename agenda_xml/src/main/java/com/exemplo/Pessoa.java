@@ -5,10 +5,10 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
 import java.io.Serializable;
 
-@JacksonXmlRootElement(localName = "pessoa") // Custom XML root element name
+@JacksonXmlRootElement(localName = "pessoa") 
 public class Pessoa implements Serializable {
 
-    @JacksonXmlProperty(localName = "nome")   // Specify XML element name for the field
+    @JacksonXmlProperty(localName = "nome")   
     public String nome;
 
     @JacksonXmlProperty(localName = "idade")
@@ -18,7 +18,7 @@ public class Pessoa implements Serializable {
     public byte[] foto;
 
     public Pessoa() {
-        // Default constructor for Jackson
+        
     }
 
     public Pessoa(String nome, int idade, byte[] foto) {
